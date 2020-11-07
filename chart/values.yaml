@@ -7,7 +7,7 @@ previewReplicaCount: 1
 
 image:
   repository: argoproj/rollouts-demo
-  tag: yellow
+  tag: bad-blue
   pullPolicy: IfNotPresent
 
 service:
