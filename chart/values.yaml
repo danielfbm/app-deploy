@@ -3,6 +3,7 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
+previewReplicaCount: 1
 
 image:
   repository: argoproj/rollouts-demo
@@ -12,6 +13,7 @@ image:
 service:
   type: ClusterIP
   port: 8080
+
 
 ingress:
   enabled: true
