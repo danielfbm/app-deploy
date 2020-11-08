@@ -7,7 +7,7 @@ previewReplicaCount: 1
 
 image:
   repository: harbor.178-128-53-137.nip.io/app/rollouts-demo
-  tag: red
+  tag: blue
   pullPolicy: IfNotPresent
 
 service:
