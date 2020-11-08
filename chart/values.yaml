@@ -6,7 +6,7 @@ replicaCount: 1
 previewReplicaCount: 1
 
 image:
-  repository: argoproj/rollouts-demo
+  repository: harbor.178-128-53-137.nip.io/app/rollouts-demo
   tag: yellow
   pullPolicy: IfNotPresent
 
@@ -22,7 +22,7 @@ ingress:
     # kubernetes.io/tls-acme: "true"
   path: /
   hosts:
-    - chart-example.local
+    - app.178-128-53-137.nip.io
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
